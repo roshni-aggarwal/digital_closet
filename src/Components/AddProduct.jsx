@@ -71,7 +71,7 @@ const AddProduct = () => {
     <>
       <button
         onClick={openModal}
-        className="flex justify-between items-center gap-2 bg-teal-300 rounded-md text-lg text-gray-900 font-medium px-4 py-1"
+        className="flex justify-between items-center gap-2 bg-teal-300 rounded-md text-lg text-gray-900 font-medium px-2 md:px-4 py-1"
       >
         <IoAdd />
         Add Product

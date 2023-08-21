@@ -43,7 +43,7 @@ const Header = ({
           />
         </div>
       </div>
-      <div className="flex justify-between gap-5 mt-5">
+      <div className="flex flex-col md:flex-row justify-between gap-2 mt-5">
         <div className="flex justify-between gap-4 items-center">
           <h1 className="text-xl md:text-2xl font-medium text-amber-500 tracking-wider">
             Products
@@ -63,7 +63,7 @@ const Header = ({
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute left-0 mt-2 w-40 origin-top-right divide-y divide-gray-100 rounded-md z-10 bg-white shadow-lg text-black">
+              <Menu.Items className="absolute right-0 md:left-0 mt-2 w-40 origin-top-right divide-y divide-gray-100 rounded-md z-10 bg-white shadow-lg text-black">
                 <div className="flex flex-col gap-1">
                   <Menu.Item className="hover:font-medium hover:bg-amber-100">
                     <button
